@@ -9,7 +9,7 @@ require("./config/firebase.config");
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: '*' }))
+app.use(cors({ origin: ["https://cars-and-parts-2f77b.web.app", "http://localhost:5173"] }))
 
 
 const routesDir = path.join(__dirname, 'routes');

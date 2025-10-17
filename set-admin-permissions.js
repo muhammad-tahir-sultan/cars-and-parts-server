@@ -21,7 +21,8 @@ const customClaims = {
     'add-category',
     'add-user',
     'edit-user',
-    'delete-user'
+    'delete-user',
+    'edit-category'
   ]
 };
 
